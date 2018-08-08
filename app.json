@@ -9,4 +9,13 @@
   ],
   "website": "http://github.com/heroku/go-getting-started",
   "repository": "http://github.com/heroku/go-getting-started"
+  "environments": {
+    "test": {
+      "formation": {
+         "test": {
+           "quantity": 1,
+           "size": "standard-1x"
+         }
+      }
+   }
 }
